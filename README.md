@@ -1,15 +1,33 @@
-pkg update && pkg upgrade
+<h1 align="center">
+  Jessica
+</h1>
+</div>
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/kinarworo">Alvin Gans</a>
+</p>
+<p align="center">
+ <img src="https://github.com/kinarworo/Jessica/blob/main/IMG_20201202_032911.jpg" width="640" title="Menu" alt="Menu">
+</p>
 
-pkg install git
+   ![](https://img.shields.io/badge/Language-1-blue) ![](https://img.shields.io/badge/Python-3.7-green) ![](https://img.shields.io/badge/Size-5KB-orange) ![](https://img.shields.io/badge/Relase-16-09-20-brightgreen)
 
-pkg install python2
+## Features
+* Login Via Token
+* Crack Account Indonesia
+## Install script on Termux
+```
+$ apt update && pkg upgrade -y
+$ apt install python2 -y
+$ apt install git -y
+$ git clone https://github.com/kinarworo/ratuerror
+```
 
-pkg install nodejs
-
-git clone https://github.com/kinarworo/ratuerror
-
-cd ratuerror
-
-python2 ratuerror
-
-GAPERLU PAKE .py
+## Run script
+```
+$ cd ratuerror
+$ pip2 install requests bs4
+$ python2 ratuerror
+```
+## Notice :
+GAUSAH PAKE .py
+```
